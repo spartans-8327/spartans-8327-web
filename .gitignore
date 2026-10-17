@@ -36,12 +36,6 @@ yarn-error.log*
 # vercel
 .vercel
 
-# Portafolio de Decode (nacional) pesa 154 MB — supera el límite de 100 MB
-# por archivo de GitHub. Se queda en la copia local; no viaja al repositorio
-# hasta comprimirlo, moverlo a Git LFS, o alojarlo fuera del repo. El resto
-# de public/portafolios/ (todos bajo 100 MB) sí se sube normalmente.
-public/portafolios/2025-decode-nacional.pdf
-
 # typescript
 *.tsbuildinfo
 next-env.d.ts

@@ -356,11 +356,9 @@ export type Portfolio = {
   // equipo solo compartió una versión del portafolio para la temporada.
   stage?: { es: string; en: string };
   fileSlug: string;
-  // false solo para el portafolio de Decode nacional: el PDF pesa 154 MB,
-  // supera el límite de 100 MB por archivo de GitHub y por eso no viaja al
-  // repositorio ni al sitio publicado — sigue existiendo en la copia local
-  // del equipo. Sin esta bandera, el botón "Ver documento" apuntaría a un
-  // archivo ausente en producción.
+  // false cuando el PDF del portafolio no está publicado en el sitio (por
+  // ejemplo, por exceder el límite de tamaño de archivo). Sin esta bandera,
+  // el botón "Ver documento" apuntaría a un archivo ausente en producción.
   availableOnline?: boolean;
 };
 
@@ -375,7 +373,6 @@ export const PORTFOLIOS: Portfolio[] = [
     game: "Decode",
     stage: { es: "Nacional", en: "Nationals" },
     fileSlug: "2025-decode-nacional",
-    availableOnline: false,
   },
   {
     id: "2025-decode-regional",
