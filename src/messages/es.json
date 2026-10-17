@@ -1,0 +1,219 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "team": "Nuestra historia",
+    "timeline": "Línea del tiempo",
+    "members": "Integrantes",
+    "robots": "Robots y proyectos",
+    "achievements": "Logros",
+    "portfolios": "Portafolios",
+    "gallery": "Galería",
+    "impact": "Impacto comunitario",
+    "sponsors": "Patrocinadores",
+    "store": "Tienda",
+    "contact": "Contacto",
+    "cart": "Carrito",
+    "menu": "Menú",
+    "closeMenu": "Cerrar menú",
+    "openMenu": "Abrir menú",
+    "language": "Idioma"
+  },
+  "common": {
+    "pending": "Pendiente de confirmación",
+    "learnMore": "Conocer más",
+    "backToTop": "Volver arriba",
+    "readMore": "Leer más",
+    "viewAll": "Ver todo",
+    "confirmed": "Confirmado",
+    "source": "Fuente",
+    "season": "Temporada",
+    "skipToContent": "Saltar al contenido principal",
+    "scrollCue": "Desplázate"
+  },
+  "home": {
+    "hero": {
+      "eyebrowTeam": "Spartans 8327",
+      "eyebrowLocation": "CBTIS 203 — Metepec, Estado de México",
+      "headline": "No solo construimos robots.\nConstruimos personas.",
+      "sub": "Un equipo estudiantil de FIRST Tech Challenge con más de catorce años forjando ingeniería, perseverancia y comunidad.",
+      "ctaPrimary": "Conoce al equipo",
+      "ctaSecondary": "Nuestra historia"
+    },
+    "purpose": {
+      "quote": "Cada temporada es un ejercicio de diseño, programación, construcción y trabajo en equipo — y cada resultado, bueno o malo, se convierte en aprendizaje compartido.",
+      "attribution": "El espíritu que mueve a cada generación de Spartans"
+    },
+    "history": {
+      "cta": "Ver la línea de tiempo completa"
+    },
+    "first": {
+      "title": "¿Qué es FIRST?",
+      "intro": "La organización detrás de FIRST Tech Challenge, la competencia en la que participa Spartans 8327.",
+      "letters": {
+        "F": "Para",
+        "I": "la Inspiración",
+        "R": "y el Reconocimiento",
+        "S": "de la Ciencia",
+        "T": "y la Tecnología"
+      },
+      "mission": "Fundada en 1989 por el inventor Dean Kamen, FIRST es una organización sin fines de lucro que usa la robótica competitiva para inspirar a estudiantes de todo el mundo a interesarse en la ciencia, la tecnología, la ingeniería y las matemáticas. FIRST Tech Challenge es uno de sus programas: equipos de nivel medio superior diseñan, construyen y programan un robot para competir en un reto distinto cada temporada."
+    },
+    "work": {
+      "title": "El trabajo detrás del robot",
+      "body": "Diseño, programación, construcción, pruebas, fallas, ajustes y vuelta a empezar — el mismo proceso de ingeniería real que se vive en la industria, aplicado por estudiantes de bachillerato después de clases.",
+      "cta": "Ver robots y proyectos"
+    },
+    "community": {
+      "title": "Más que un equipo de robótica",
+      "body": "Spartans también sale a la comunidad: divulgación, proyectos sociales y la convicción de que la robótica puede cambiar lo que un estudiante cree posible para sí mismo.",
+      "ctaMembers": "Conoce a los integrantes",
+      "ctaSponsors": "Patrocinadores",
+      "ctaStore": "Visita la tienda",
+      "ctaContact": "Contáctanos"
+    }
+  },
+  "team": {
+    "title": "Nuestra historia",
+    "intro": "Un taller después de clases, una idea, y la convicción de que valía la pena intentarlo.",
+    "originStory": "Nacimos el 21 de agosto de 2012 en el CBTIS 203 de Metepec, Estado de México, bajo el nombre Scorpions. En 2015 nos transformamos: cambiamos de nombre a Spartans, y con el nombre cambió también la forma en que entendíamos lo que estábamos haciendo. Ya no se trataba solo de construir un robot cada temporada — se trataba de construirnos a nosotros mismos en el proceso.",
+    "milestoneStory": "Ese mismo año nos llegó el primer gran reconocimiento, y con él, nuestro primer viaje al campeonato mundial. Volvimos al año siguiente. Y al siguiente. Cada temporada trajo un robot distinto, un reto distinto y una generación distinta de estudiantes dispuestos a quedarse tarde en el taller.",
+    "philosophy": "No solo construimos robots, sino que construimos personas.",
+    "philosophyBody": "Esa frase no es un eslogan — es, literalmente, la razón por la que existimos: fomentar la innovación en ciencia y tecnología desde un enfoque STEM integral, y demostrar que lo que nos lleva lejos no son los recursos que tenemos, sino las ganas y la disciplina con las que trabajamos.",
+    "closing": "Hoy seguimos el mismo camino que empezaron quienes vinieron antes que nosotros: diseñar, construir, perder, aprender y volver a intentarlo.",
+    "acts": {
+      "founding": { "date": "21·08·2012", "title": "Scorpions", "body": "Nacemos en el CBTIS 203." },
+      "rename": { "date": "2015", "title": "Spartans", "body": "Nuevo nombre y primer mundial." },
+      "current": { "date": "2026–2027", "title": "BioBuzz", "body": "Una nueva historia comienza." }
+    }
+  },
+  "timeline": {
+    "title": "Línea de tiempo",
+    "intro": "Desde 2012, temporada tras temporada: así se ha forjado el equipo.",
+    "worldsLabel": "Campeonato mundial",
+    "scrollHint": "Desliza para recorrer las temporadas",
+    "worldsHint": "Rojo = temporada con mundial",
+    "currentSeason": "En curso",
+    "indexLabel": "Saltar a una temporada"
+  },
+  "members": {
+    "title": "Integrantes",
+    "intro": "El equipo de la temporada BioBuzz 2026–2027.",
+    "pendingNotice": "{count} de los {total} integrantes todavía no tienen fotografía confirmada — se muestran con marcador mientras el equipo las reúne.",
+    "captain": "Capitán del equipo",
+    "photoPending": "Fotografía pendiente",
+    "memberSingular": "integrante",
+    "memberPlural": "integrantes"
+  },
+  "robots": {
+    "title": "Robots y proyectos",
+    "intro": "El trabajo de diseño, programación y construcción detrás de cada robot y proyecto del equipo.",
+    "robotsHeading": "Robots",
+    "robotPending": "Fotos y descripción próximamente",
+    "projectsHeading": "Proyectos",
+    "projectsPending": "Todavía no hay proyectos documentados para esta temporada.",
+    "season": "Temporada",
+    "award": "Premio"
+  },
+  "achievements": {
+    "title": "Logros",
+    "intro": "Los premios y resultados de los que el equipo está más orgulloso.",
+    "worldsIntro": "Tres veces, Spartans ha representado a México en el campeonato mundial de FIRST Tech Challenge.",
+    "seasonResults": "Resultados por temporada"
+  },
+  "portfolios": {
+    "title": "Portafolios",
+    "intro": "El portafolio de ingeniería que el equipo presentó en cada etapa de competencia, clasificado por temporada.",
+    "view": "Ver documento",
+    "hide": "Ocultar documento",
+    "openNewTab": "Abrir en pestaña nueva",
+    "loading": "Cargando documento…",
+    "loadingNote": "Puede tardar un momento — es un PDF con fotografías."
+  },
+  "gallery": {
+    "title": "Galería",
+    "intro": "Competencias, construcción y vida de equipo, temporada por temporada.",
+    "seasonsLabel": "Temporadas",
+    "allSeasons": "Todas",
+    "closeLightbox": "Cerrar imagen ampliada",
+    "previousImage": "Imagen anterior",
+    "nextImage": "Imagen siguiente"
+  },
+  "impact": {
+    "title": "Impacto comunitario",
+    "intro": "Spartans también construye fuera del taller: divulgación, proyectos sociales y comunidad.",
+    "cta": "Invítanos a tu escuela"
+  },
+  "sponsors": {
+    "title": "Patrocinadores",
+    "intro": "Empresas e instituciones que han apoyado a Spartans 8327.",
+    "bosch": {
+      "name": "Bosch",
+      "status": "Patrocinador de Spartans 8327",
+      "note": "Nos ha apoyado y nos sigue apoyando, temporada tras temporada. Gracias por creer en nosotros y en lo que construimos."
+    },
+    "cta": "¿Tu empresa quiere colaborar con Spartans 8327? Contáctanos.",
+    "ctaButton": "Quiero patrocinar",
+    "slotPlaceholder": "Tu marca aquí",
+    "disclaimer": "Los logotipos visibles en fotografías de eventos de competencia (organizadores, instituciones anfitrionas) no son necesariamente patrocinadores del equipo."
+  },
+  "store": {
+    "title": "Tienda",
+    "intro": "Playeras, sudaderas, accesorios y artículos de temporada de Spartans 8327.",
+    "categories": {
+      "apparel": "Ropa",
+      "accessories": "Accesorios"
+    },
+    "priceConfirmed": "Precio confirmado",
+    "pricePending": "Precio por confirmar",
+    "soldOut": "Agotado",
+    "comingSoon": "Próximamente",
+    "mockupBadge": "Vista previa de diseño",
+    "photoColorMismatch": "Foto de referencia del diseño — todavía no hay fotografía que distinga cada color",
+    "closeDrawer": "Cerrar vista de producto",
+    "addToCart": "Añadir al carrito",
+    "unavailable": "No disponible",
+    "selectVariant": "Elige una opción",
+    "quantity": "Cantidad",
+    "size": "Talla",
+    "color": "Color",
+    "viewProduct": "Ver producto",
+    "emptyCatalog": "El precio, el color y la disponibilidad de cada producto ya están confirmados. Las imágenes son vistas previas de diseño, no fotografías de la prenda ya producida."
+  },
+  "cart": {
+    "title": "Tu carrito",
+    "empty": "Tu carrito está vacío.",
+    "exploreStore": "Explorar la tienda",
+    "subtotal": "Subtotal",
+    "total": "Total (precios confirmados)",
+    "pendingItems": "Artículos con precio por confirmar (no incluidos en el total)",
+    "remove": "Eliminar",
+    "quantityLabel": "Cantidad de {item}",
+    "continueToWhatsapp": "Continuar a WhatsApp",
+    "whatsappPendingNumber": "El número de WhatsApp del equipo aún no está confirmado. Esta acción se habilitará en cuanto exista un número validado.",
+    "reviewNotice": "Esto no confirma tu compra. Revisa el mensaje y envíalo tú mismo desde WhatsApp; el equipo confirmará disponibilidad, pago y entrega por ese medio.",
+    "itemsCount": "{count} artículo",
+    "itemsCountPlural": "{count} artículos",
+    "clear": "Vaciar carrito"
+  },
+  "contact": {
+    "title": "Contacto",
+    "intro": "Formas de comunicarte con Spartans 8327.",
+    "emailLabel": "Correo electrónico / Email",
+    "priorityBadge": "Canal prioritario",
+    "pendingChannel": "Este canal de contacto todavía no ha sido confirmado por el equipo.",
+    "formName": "Nombre",
+    "formEmail": "Correo",
+    "formMessage": "Mensaje",
+    "formSubmit": "Enviar",
+    "formSending": "Enviando…",
+    "formSent": "Mensaje enviado. Gracias — el equipo te responderá pronto.",
+    "formError": "No se pudo enviar el mensaje. Intenta de nuevo o escribe directamente a spartanscbtis203@gmail.com."
+  },
+  "footer": {
+    "tagline": "No solo construimos robots. Construimos personas.",
+    "siteMap": "Mapa del sitio",
+    "connect": "Síguenos",
+    "rights": "Spartans 8327 · CBTIS 203 · Metepec, Estado de México",
+    "builtNote": "Sitio en desarrollo — primera versión local"
+  }
+}

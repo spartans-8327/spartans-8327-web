@@ -1,0 +1,219 @@
+{
+  "nav": {
+    "home": "Home",
+    "team": "Our story",
+    "timeline": "Timeline",
+    "members": "Members",
+    "robots": "Robots & projects",
+    "achievements": "Achievements",
+    "portfolios": "Portfolios",
+    "gallery": "Gallery",
+    "impact": "Community impact",
+    "sponsors": "Sponsors",
+    "store": "Store",
+    "contact": "Contact",
+    "cart": "Cart",
+    "menu": "Menu",
+    "closeMenu": "Close menu",
+    "openMenu": "Open menu",
+    "language": "Language"
+  },
+  "common": {
+    "pending": "Pending confirmation",
+    "learnMore": "Learn more",
+    "backToTop": "Back to top",
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "confirmed": "Confirmed",
+    "source": "Source",
+    "season": "Season",
+    "skipToContent": "Skip to main content",
+    "scrollCue": "Scroll"
+  },
+  "home": {
+    "hero": {
+      "eyebrowTeam": "Spartans 8327",
+      "eyebrowLocation": "CBTIS 203 — Metepec, State of Mexico",
+      "headline": "We don’t just build robots.\nWe build people.",
+      "sub": "A FIRST Tech Challenge student team with more than fourteen years forging engineering, perseverance, and community.",
+      "ctaPrimary": "Meet the team",
+      "ctaSecondary": "Our story"
+    },
+    "purpose": {
+      "quote": "Every season is an exercise in design, programming, construction, and teamwork — and every result, good or bad, becomes shared learning.",
+      "attribution": "The spirit that drives every generation of Spartans"
+    },
+    "history": {
+      "cta": "See the full timeline"
+    },
+    "first": {
+      "title": "What is FIRST?",
+      "intro": "The organization behind FIRST Tech Challenge, the competition Spartans 8327 takes part in.",
+      "letters": {
+        "F": "For",
+        "I": "Inspiration",
+        "R": "and Recognition",
+        "S": "of Science",
+        "T": "and Technology"
+      },
+      "mission": "Founded in 1989 by inventor Dean Kamen, FIRST is a nonprofit organization that uses competitive robotics to inspire students worldwide to get interested in science, technology, engineering, and math. FIRST Tech Challenge is one of its programs: high-school-age teams design, build, and program a robot to compete in a different challenge each season."
+    },
+    "work": {
+      "title": "The work behind the robot",
+      "body": "Design, programming, construction, testing, failures, fixes, and starting again — the same engineering process used in industry, carried out by high-school students after class.",
+      "cta": "See robots & projects"
+    },
+    "community": {
+      "title": "More than a robotics team",
+      "body": "Spartans also shows up for its community: outreach, social projects, and the conviction that robotics can change what a student believes is possible for themselves.",
+      "ctaMembers": "Meet the members",
+      "ctaSponsors": "Sponsors",
+      "ctaStore": "Visit the store",
+      "ctaContact": "Contact us"
+    }
+  },
+  "team": {
+    "title": "Our story",
+    "intro": "An after-school workshop, an idea, and the conviction that it was worth trying.",
+    "originStory": "We were born on August 21, 2012 at CBTIS 203 in Metepec, State of Mexico, under the name Scorpions. In 2015 we transformed: we changed our name to Spartans, and with the name came a different way of understanding what we were doing. It was no longer just about building a robot each season — it was about building ourselves in the process.",
+    "milestoneStory": "That same year brought us our first major recognition, and with it, our first trip to the World Championship. We went back the next year. And the year after that. Each season brought a different robot, a different challenge, and a different generation of students willing to stay late in the workshop.",
+    "philosophy": "We don’t just build robots — we build people.",
+    "philosophyBody": "That line isn’t a slogan — it’s, quite literally, the reason we exist: to foster innovation in science and technology through a comprehensive STEM approach, and to prove that what takes us far isn’t the resources we have, but the drive and discipline we bring to the work.",
+    "closing": "Today we keep walking the same path that those who came before us started: design, build, lose, learn, and try again.",
+    "acts": {
+      "founding": { "date": "08·21·2012", "title": "Scorpions", "body": "We're born at CBTIS 203." },
+      "rename": { "date": "2015", "title": "Spartans", "body": "New name and first World Championship." },
+      "current": { "date": "2026–2027", "title": "BioBuzz", "body": "A new story begins." }
+    }
+  },
+  "timeline": {
+    "title": "Timeline",
+    "intro": "Since 2012, one season at a time — that’s how the team has been forged.",
+    "worldsLabel": "World championship",
+    "scrollHint": "Scroll to browse the seasons",
+    "worldsHint": "Red = season with a World Championship",
+    "currentSeason": "Current",
+    "indexLabel": "Jump to a season"
+  },
+  "members": {
+    "title": "Members",
+    "intro": "The team for the BioBuzz 2026–2027 season.",
+    "pendingNotice": "{count} of the {total} members don’t have a confirmed photo yet — shown with a placeholder while the team gathers them.",
+    "captain": "Team captain",
+    "photoPending": "Photo pending",
+    "memberSingular": "member",
+    "memberPlural": "members"
+  },
+  "robots": {
+    "title": "Robots & projects",
+    "intro": "The design, programming, and construction work behind each of the team's robots and projects.",
+    "robotsHeading": "Robots",
+    "robotPending": "Photos and description coming soon",
+    "projectsHeading": "Projects",
+    "projectsPending": "No projects documented for this season yet.",
+    "season": "Season",
+    "award": "Award"
+  },
+  "achievements": {
+    "title": "Achievements",
+    "intro": "The awards and results the team is proudest of.",
+    "worldsIntro": "Three times, Spartans has represented Mexico at the FIRST Tech Challenge World Championship.",
+    "seasonResults": "Season by season"
+  },
+  "portfolios": {
+    "title": "Portfolios",
+    "intro": "The engineering portfolio the team submitted at each stage of competition, sorted by season.",
+    "view": "View document",
+    "hide": "Hide document",
+    "openNewTab": "Open in a new tab",
+    "loading": "Loading document…",
+    "loadingNote": "May take a moment — it's a PDF full of photos."
+  },
+  "gallery": {
+    "title": "Gallery",
+    "intro": "Competitions, builds, and team life, season by season.",
+    "seasonsLabel": "Seasons",
+    "allSeasons": "All",
+    "closeLightbox": "Close enlarged image",
+    "previousImage": "Previous image",
+    "nextImage": "Next image"
+  },
+  "impact": {
+    "title": "Community impact",
+    "intro": "Spartans also builds outside the workshop: outreach, social projects, and community.",
+    "cta": "Invite us to your school"
+  },
+  "sponsors": {
+    "title": "Sponsors",
+    "intro": "Companies and institutions that have supported Spartans 8327.",
+    "bosch": {
+      "name": "Bosch",
+      "status": "Sponsor of Spartans 8327",
+      "note": "They've supported us, and they still do, season after season. Thank you for believing in us and in what we build."
+    },
+    "cta": "Is your company interested in partnering with Spartans 8327? Get in touch.",
+    "ctaButton": "Become a sponsor",
+    "slotPlaceholder": "Your brand here",
+    "disclaimer": "Logos visible in competition event photos (organizers, host institutions) are not necessarily sponsors of the team."
+  },
+  "store": {
+    "title": "Store",
+    "intro": "T-shirts, hoodies, accessories, and seasonal items from Spartans 8327.",
+    "categories": {
+      "apparel": "Apparel",
+      "accessories": "Accessories"
+    },
+    "priceConfirmed": "Confirmed price",
+    "pricePending": "Price to be confirmed",
+    "soldOut": "Sold out",
+    "comingSoon": "Coming soon",
+    "mockupBadge": "Design preview",
+    "photoColorMismatch": "Reference photo of the design — no photo yet distinguishes each color",
+    "closeDrawer": "Close product view",
+    "addToCart": "Add to cart",
+    "unavailable": "Unavailable",
+    "selectVariant": "Choose an option",
+    "quantity": "Quantity",
+    "size": "Size",
+    "color": "Color",
+    "viewProduct": "View product",
+    "emptyCatalog": "Price, color, and availability are confirmed for every product. Images are design previews, not photos of the finished item."
+  },
+  "cart": {
+    "title": "Your cart",
+    "empty": "Your cart is empty.",
+    "exploreStore": "Browse the store",
+    "subtotal": "Subtotal",
+    "total": "Total (confirmed prices)",
+    "pendingItems": "Items with price pending confirmation (not included in the total)",
+    "remove": "Remove",
+    "quantityLabel": "Quantity for {item}",
+    "continueToWhatsapp": "Continue to WhatsApp",
+    "whatsappPendingNumber": "The team’s WhatsApp number hasn’t been confirmed yet. This action will be enabled once a validated number exists.",
+    "reviewNotice": "This does not confirm your purchase. Review the message and send it yourself from WhatsApp; the team will confirm availability, payment, and delivery there.",
+    "itemsCount": "{count} item",
+    "itemsCountPlural": "{count} items",
+    "clear": "Clear cart"
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Ways to reach Spartans 8327.",
+    "emailLabel": "Email",
+    "priorityBadge": "Priority channel",
+    "pendingChannel": "This contact channel hasn’t been confirmed by the team yet.",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formMessage": "Message",
+    "formSubmit": "Send",
+    "formSending": "Sending…",
+    "formSent": "Message sent. Thanks — the team will get back to you soon.",
+    "formError": "The message couldn’t be sent. Try again or email spartanscbtis203@gmail.com directly."
+  },
+  "footer": {
+    "tagline": "We don’t just build robots. We build people.",
+    "siteMap": "Site map",
+    "connect": "Follow us",
+    "rights": "Spartans 8327 · CBTIS 203 · Metepec, State of Mexico",
+    "builtNote": "Site in development — first local version"
+  }
+}
