@@ -127,7 +127,8 @@
     "hide": "Ocultar documento",
     "openNewTab": "Abrir en pestaña nueva",
     "loading": "Cargando documento…",
-    "loadingNote": "Puede tardar un momento — es un PDF con fotografías."
+    "loadingNote": "Puede tardar un momento — es un PDF con fotografías.",
+    "notAvailableOnline": "Este documento pesa más de 100 MB y todavía no está disponible en el sitio publicado — pide una copia directamente al equipo."
   },
   "gallery": {
     "title": "Galería",

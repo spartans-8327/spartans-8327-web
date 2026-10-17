@@ -53,6 +53,7 @@ function PortfolioCard({ portfolio }: { portfolio: Portfolio }) {
   const [loaded, setLoaded] = useState(false);
   const src = `/portafolios/${portfolio.fileSlug}.pdf`;
   const label = portfolio.stage ? portfolio.stage[locale] : portfolio.game;
+  const available = portfolio.availableOnline !== false;
 
   return (
     <article className="ventana portafolio">
@@ -68,15 +69,21 @@ function PortfolioCard({ portfolio }: { portfolio: Portfolio }) {
         <h3 className="robots__titulo-ventana" style={{ margin: 0 }}>
           {label}
         </h3>
-        <div className="btns">
-          <button type="button" className="btn btn--sec" onClick={() => setOpen((v) => !v)} aria-expanded={open}>
-            {open ? t("hide") : t("view")}
-          </button>
-          <a href={src} target="_blank" rel="noopener noreferrer" className="btn btn--sec">
-            {t("openNewTab")}
-          </a>
-        </div>
-        {open && (
+        {available ? (
+          <div className="btns">
+            <button type="button" className="btn btn--sec" onClick={() => setOpen((v) => !v)} aria-expanded={open}>
+              {open ? t("hide") : t("view")}
+            </button>
+            <a href={src} target="_blank" rel="noopener noreferrer" className="btn btn--sec">
+              {t("openNewTab")}
+            </a>
+          </div>
+        ) : (
+          <p className="pendiente dato" style={{ margin: 0 }}>
+            {t("notAvailableOnline")}
+          </p>
+        )}
+        {available && open && (
           <div className="portafolio__visor">
             {!loaded && (
               <div className="portafolio__cargando dato">

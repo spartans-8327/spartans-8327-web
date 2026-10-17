@@ -127,7 +127,8 @@
     "hide": "Hide document",
     "openNewTab": "Open in a new tab",
     "loading": "Loading document…",
-    "loadingNote": "May take a moment — it's a PDF full of photos."
+    "loadingNote": "May take a moment — it's a PDF full of photos.",
+    "notAvailableOnline": "This document is over 100 MB and isn't available on the published site yet — ask the team directly for a copy."
   },
   "gallery": {
     "title": "Gallery",
