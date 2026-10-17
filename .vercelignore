@@ -1,0 +1,5 @@
+# El CLI de Vercel no siempre respeta .gitignore al subir el directorio
+# local (vercel deploy sube el working directory, no el commit de Git) — por
+# eso este archivo necesita su propia exclusión explícita. Supera el límite
+# de 100 MB por archivo de Vercel/GitHub; se queda en la copia local.
+public/portafolios/2025-decode-nacional.pdf
