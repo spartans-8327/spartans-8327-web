@@ -50,9 +50,6 @@ export default function Footer() {
 
         <div>
           <h4>{t("tagline")}</h4>
-          <p className="dato" style={{ opacity: 0.85 }}>
-            {t("builtNote")}
-          </p>
         </div>
       </div>
 

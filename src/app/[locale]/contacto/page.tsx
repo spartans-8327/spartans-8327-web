@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useState, type FormEvent, type ReactNode } from "react";
 import { useTranslations } from "next-intl";
 import {
   CONTACT_EMAIL,
@@ -8,6 +8,8 @@ import {
   INSTAGRAM_URL,
   TIKTOK_HANDLE,
   TIKTOK_URL,
+  YOUTUBE_HANDLE,
+  YOUTUBE_URL,
 } from "@/content/site-data";
 
 type SubmitState = "idle" | "sending" | "sent" | "error";
@@ -60,6 +62,7 @@ export default function ContactPage() {
               <ContactChannel label={t("emailLabel")} value={CONTACT_EMAIL} href={`mailto:${CONTACT_EMAIL}`} priority />
               <ContactChannel label="Instagram" value={`@${INSTAGRAM_HANDLE}`} href={INSTAGRAM_URL} />
               <ContactChannel label="TikTok" value={`@${TIKTOK_HANDLE}`} href={TIKTOK_URL} />
+              <ContactChannel label="YouTube" value={`@${YOUTUBE_HANDLE}`} href={YOUTUBE_URL} icon={<YoutubeIcon />} />
             </ul>
           </div>
 
@@ -141,12 +144,14 @@ function ContactChannel({
   href,
   priority,
   pending,
+  icon,
 }: {
   label: string;
   value?: string;
   href?: string;
   priority?: boolean;
   pending?: boolean;
+  icon?: ReactNode;
 }) {
   const t = useTranslations("contact");
 
@@ -171,9 +176,29 @@ function ContactChannel({
         target={isExternal ? "_blank" : undefined}
         rel={isExternal ? "noopener noreferrer" : undefined}
         className="boleto__valor"
+        style={icon ? { display: "inline-flex", alignItems: "center", gap: "8px" } : undefined}
       >
+        {icon}
         {value}
       </a>
     </li>
+  );
+}
+
+function YoutubeIcon() {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      width="18"
+      height="18"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      aria-hidden="true"
+      style={{ flexShrink: 0 }}
+    >
+      <rect x="2" y="5" width="20" height="14" rx="4" />
+      <path d="M10 9.3 15 12l-5 2.7V9.3Z" fill="currentColor" stroke="none" />
+    </svg>
   );
 }

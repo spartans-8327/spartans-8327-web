@@ -761,3 +761,6 @@ export const INSTAGRAM_URL = "https://www.instagram.com/spartans_8327/";
 // verificar que no resolvían o no eran la cuenta correcta.)
 export const TIKTOK_HANDLE = "spartans_.8327";
 export const TIKTOK_URL = "https://www.tiktok.com/@spartans_.8327";
+
+export const YOUTUBE_HANDLE = "SPARTANS-ss4ed";
+export const YOUTUBE_URL = "https://www.youtube.com/@SPARTANS-ss4ed";
