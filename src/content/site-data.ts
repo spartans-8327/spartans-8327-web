@@ -638,7 +638,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   { id: "sabine", name: "Sabine", areaId: "programacion", photoSlug: "miembro-sabine" },
   { id: "joshua", name: "Joshua", areaId: "diseno", photoSlug: "miembro-joshua" },
   { id: "mateo", name: "Mateo", areaId: "diseno", photoSlug: "miembro-mateo" },
-  { id: "donaji", name: "Donají", areaId: "marketing", photoSlug: "miembro-donaji" },
+  { id: "donaji", name: "Donaji", areaId: "marketing", photoSlug: "miembro-donaji" },
   { id: "melisa", name: "Melisa", areaId: "marketing", photoSlug: "miembro-melisa" },
   { id: "yaotl", name: "Yaotl", areaId: "marketing", photoSlug: "miembro-yaotl" },
   { id: "jair", name: "Jair", areaId: "marketing", photoSlug: "miembro-jair" },

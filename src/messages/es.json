@@ -102,7 +102,13 @@
     "captain": "Capitán del equipo",
     "photoPending": "Fotografía pendiente",
     "memberSingular": "integrante",
-    "memberPlural": "integrantes"
+    "memberPlural": "integrantes",
+    "videoBadge": "Video del equipo",
+    "videoTitle": "Detrás de cada robot, hay un equipo",
+    "videoDescription": "Diseñamos, construimos y competimos juntos. Somos las personas detrás de Spartans 8327: nuestra colaboración día a día y el trabajo en equipo que hace posible cada temporada.",
+    "videoPlayLabel": "Reproducir video: {title}",
+    "videoDuration": "1:01",
+    "videoUnsupported": "Tu navegador no soporta la reproducción de este video."
   },
   "robots": {
     "title": "Robots y proyectos",

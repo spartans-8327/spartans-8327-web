@@ -626,6 +626,41 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .reparto__capitan .sello { position: absolute; top: 18px; left: -10px; background: var(--tinta); color: var(--papel); z-index: 3; }
 .reparto__capitan-nombre { position: absolute; left: -.04em; bottom: -.14em; z-index: 3; font: 900 clamp(3.4rem, 8vw, 7rem)/.78 var(--f-display); text-transform: uppercase; color: var(--papel); white-space: nowrap; }
 .reparto__intro { grid-column: 7 / span 6; display: grid; gap: 24px; }
+
+.reparto__video {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 28px;
+  align-items: center;
+  margin-bottom: clamp(56px, 8vw, 104px);
+  padding-bottom: clamp(40px, 6vw, 72px);
+  border-bottom: 1.5px solid var(--linea);
+}
+.reparto__video-marco { grid-column: 1 / span 7; position: relative; aspect-ratio: 1; border: 2px solid var(--papel); overflow: hidden; }
+.reparto__video-duo { position: absolute; inset: 0; }
+.reparto__video-disparador { position: absolute; inset: 0; display: block; padding: 0; border: 0; background: none; }
+.reparto__video-boton {
+  position: absolute; top: 50%; left: 50%; z-index: 2;
+  display: grid; place-items: center;
+  width: clamp(64px, 9vw, 92px); height: clamp(64px, 9vw, 92px);
+  padding-left: .15em;
+  border-radius: 50%;
+  background: var(--rojo); color: var(--papel);
+  border: 2px solid var(--papel);
+  font-size: clamp(1.3rem, 2.4vw, 1.8rem);
+  transform: translate(-50%, -50%);
+  transition: transform .15s, background .15s, color .15s;
+}
+.reparto__video-disparador:hover .reparto__video-boton,
+.reparto__video-disparador:focus-visible .reparto__video-boton {
+  background: var(--papel); color: var(--tinta);
+  transform: translate(-50%, -50%) scale(1.08);
+}
+.reparto__video-duracion { position: absolute; right: 14px; bottom: 14px; z-index: 2; padding: 4px 8px; background: rgba(20, 16, 14, .78); color: var(--papel); }
+.reparto__video-reproductor { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; background: var(--tinta); }
+.reparto__video-texto { grid-column: 8 / span 5; display: grid; gap: 16px; align-content: center; }
+.reparto__video-texto .sello { justify-self: start; }
+
 .area { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 9fr); gap: 24px; padding-block: 28px; border-top: 1.5px solid var(--linea); }
 .area__info { display: grid; gap: 8px; align-content: start; }
 .area__info .t3 { color: var(--rojo-vivo); }
@@ -648,6 +683,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .creditos-finales__cols p { margin: 0; font: 800 1.35rem/1.05 var(--f-display); text-transform: uppercase; }
 @media (max-width: 860px) {
   .reparto__capitan, .reparto__intro { grid-column: 1 / -1; }
+  .reparto__video-marco, .reparto__video-texto { grid-column: 1 / -1; }
   .area { grid-template-columns: 1fr; }
   .creditos-finales__cols { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }

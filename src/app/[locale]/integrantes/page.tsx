@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 import { TEAM_AREAS, TEAM_MEMBERS } from "@/content/site-data";
+import ISpartansVideo from "@/components/ISpartansVideo";
 
 export default function MembersPage() {
   const t = useTranslations("members");
@@ -17,6 +18,8 @@ export default function MembersPage() {
             <span>{TEAM_MEMBERS.length}</span>
           </p>
         </header>
+
+        <ISpartansVideo />
 
         <div className="reparto__top">
           {captain?.photoSlug && (
