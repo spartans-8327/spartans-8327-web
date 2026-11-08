@@ -573,13 +573,13 @@ export const GALLERY_IMAGES: GalleryImage[] = [
 export type TeamMember = {
   id: string;
   name: string;
-  areaId: "mecanica" | "programacion" | "diseno" | "marketing";
+  areaId: "mecanica" | "programacion" | "diseno" | "marketing" | "coaches";
   captain?: boolean;
   photoSlug?: string;
 };
 
 export type TeamArea = {
-  id: "mecanica" | "programacion" | "diseno" | "marketing";
+  id: "mecanica" | "programacion" | "diseno" | "marketing" | "coaches";
   name: { es: string; en: string };
   description: { es: string; en: string };
 };
@@ -620,6 +620,14 @@ export const TEAM_AREAS: TeamArea[] = [
       en: "Connects the team with the community, sponsors, and social media — and organizes what the team shares with the outside world.",
     },
   },
+  {
+    id: "coaches",
+    name: { es: "Coaches", en: "Coaches" },
+    description: {
+      es: "Guían y acompañan al equipo con su experiencia técnica y estratégica a lo largo de la temporada.",
+      en: "Guide and support the team with their technical and strategic experience throughout the season.",
+    },
+  },
 ];
 
 // Integrantes confirmados de la temporada BioBuzz 2026-2027 (carpeta
@@ -627,7 +635,9 @@ export const TEAM_AREAS: TeamArea[] = [
 // área — sin apellidos ni otros datos que el equipo no incluyó. Fabián y
 // Fátima ya no aparecen en la carpeta vigente de integrantes (confirmado por
 // el equipo, 2026-10-14) y se quitaron de la lista; Mateo se sumó a Diseño.
-// Los 14 integrantes ya tienen fotografía confirmada.
+// Omar y Yosahandi se agregaron como área Coaches (carpeta
+// "MIEMBROS 2026-2027/COACHES", 2026-11-08).
+// Los 16 integrantes ya tienen fotografía confirmada.
 export const TEAM_MEMBERS: TeamMember[] = [
   { id: "santiago", name: "Santiago", areaId: "mecanica", captain: true, photoSlug: "miembro-santiago" },
   { id: "armando", name: "Armando", areaId: "mecanica", photoSlug: "miembro-armando" },
@@ -643,6 +653,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
   { id: "yaotl", name: "Yaotl", areaId: "marketing", photoSlug: "miembro-yaotl" },
   { id: "jair", name: "Jair", areaId: "marketing", photoSlug: "miembro-jair" },
   { id: "lucero", name: "Lucero", areaId: "marketing", photoSlug: "miembro-lucero" },
+  { id: "omar", name: "Ing. Omar", areaId: "coaches", photoSlug: "miembro-omar" },
+  { id: "yosahandi", name: "Yosahandi", areaId: "coaches", photoSlug: "miembro-yosahandi" },
 ];
 
 export const SPONSOR_BOSCH = {
