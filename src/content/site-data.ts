@@ -582,6 +582,10 @@ export type TeamArea = {
   id: "mecanica" | "programacion" | "diseno" | "marketing" | "coaches";
   name: { es: string; en: string };
   description: { es: string; en: string };
+  // Etiqueta singular para la tarjeta de cada integrante, cuando el nombre
+  // del área (p. ej. "Coaches") no funciona en singular. Si no se define,
+  // se usa `name`.
+  memberLabel?: { es: string; en: string };
 };
 
 // Descripción general de lo que hace cada área dentro de un equipo de FTC — no
@@ -627,6 +631,7 @@ export const TEAM_AREAS: TeamArea[] = [
       es: "Guían y acompañan al equipo con su experiencia técnica y estratégica a lo largo de la temporada.",
       en: "Guide and support the team with their technical and strategic experience throughout the season.",
     },
+    memberLabel: { es: "Coach", en: "Coach" },
   },
 ];
 
@@ -654,7 +659,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   { id: "jair", name: "Jair", areaId: "marketing", photoSlug: "miembro-jair" },
   { id: "lucero", name: "Lucero", areaId: "marketing", photoSlug: "miembro-lucero" },
   { id: "omar", name: "Ing. Omar", areaId: "coaches", photoSlug: "miembro-omar" },
-  { id: "yosahandi", name: "Yosahandi", areaId: "coaches", photoSlug: "miembro-yosahandi" },
+  { id: "yosahandi", name: "Mtra. Yosahandi", areaId: "coaches", photoSlug: "miembro-yosahandi" },
 ];
 
 export const SPONSOR_BOSCH = {

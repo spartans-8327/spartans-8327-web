@@ -76,7 +76,7 @@ export default function MembersPage() {
                       <figcaption>
                         <span className="persona__nombre">{member.name}</span>
                         <span className="dato">
-                          {area.name[locale]}
+                          {area.memberLabel?.[locale] ?? area.name[locale]}
                           {member.captain ? ` · ${t("captain")}` : ""}
                         </span>
                       </figcaption>
@@ -89,7 +89,7 @@ export default function MembersPage() {
                       </div>
                       <figcaption>
                         <span className="persona__nombre">{member.name}</span>
-                        <span className="dato">{area.name[locale]}</span>
+                        <span className="dato">{area.memberLabel?.[locale] ?? area.name[locale]}</span>
                       </figcaption>
                     </figure>
                   )
